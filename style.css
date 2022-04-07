@@ -1,3 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background:url("download.jpeg") ;
+    background-size: 100%;
+    padding: 45px;
+    font-family: fantasy;
+
+}
+
 .pic {
-width: 250px
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#container {
+    
+    display:flex;
+    align-items:stretch;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 460%;
+ 
+}
+
+#root {
+    display:flex;
+    flex-direction: column;
+    align-content:space-around;
+    padding:45px;
+    font-size: 120%;
+    background-color: rgba(0, 0, 255, 0.27);
+    border-radius: 10px 100px / 120px;
+    width: 500px;
+    padding: 45px;
+}
+
+.repodiv {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    padding:20px;
+    font-size: 150%;
+    background-color: rgba(211, 18, 166, 0.229);
+    border-radius: 30px;
+
+    
+
 }
